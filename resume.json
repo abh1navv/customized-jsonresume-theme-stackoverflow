@@ -1,0 +1,141 @@
+
+{
+    "$schema": "https://raw.githubusercontent.com/abh1navv/customized-jsonresume-theme-stackoverflow/master/schema.json",
+    "meta": {
+        "version": "v1.0.0",
+        "canonical": "https://github.com/abh1navv/customized-jsonresume-theme-stackoverflow/blob/master/schema.json",
+        "theme": "caffeine"
+      },
+    "basics": {
+      "name": "Abhinav Pandey",
+      "label": "Senior Software Engineer",
+      "email": "abhinavpandey312@gmail.com",
+      "image": "https://www.abhinavpandey.dev/static/images/profile.jpg",
+      "website": "https://www.abhinavpandey.dev",
+      "summary": "Backend developer with 5 years of experience in Java and related technologies. Cloud enthusiast, certified in multiple Azure roles. Experienced in Agile methodologies with excellent communication and leadership skills.",
+      "profiles": [
+            {
+                "network": "Github",
+                "username": "abh1navv",
+                "url": "https://github.com/abh1navv"
+            },
+            {
+                "network": "LinkedIn",
+                "username": "abh1navv",
+                "url": "https://www.linkedin.com/in/abh1navv"
+            },
+            {
+                "network": "Twitter",
+                "username": "abh1navv",
+                "url": "https://www.twitter.com/abh1navv"
+            }
+
+      ]
+    },
+    "education": [
+      {
+        "studyType": "Bachelor of Technology in Computer Science",
+        "institution": "National Institute of Technology, Goa",
+        "startDate": "2012-07",
+        "endDate": "2016-05"
+      }
+    ],
+    "work": [
+        {
+            "name": "Airtel India",
+            "position": "Senior Software Engineer",
+            "startDate": "2021-09",
+            "endDate": "present",
+
+            "highlights": [
+                "Developing and enhancing digital payments and customer experience.",
+                "Current responsibilities include design and implementation of microservices which support multiple mobile and web applications used by millions of users.",
+                "Contributing to system design, architecture and non-functional requirements of software systems."
+            ]
+        },  
+        {
+            "name": "Publicis Sapient",
+            "position": "Senior Associate Technology",
+            "startDate": "2016-07",
+            "endDate": "2021-09",
+
+            "highlights": [
+                "Worked on providing e-commerce solution for an international luxury brand spanning across 30+ countries",
+                "Contributed to multiple domains within the project - purchase journey, payment integrations, APIs, emails, search, caching, customer management and authentication",
+                "Integrated enterprise platforms like Algolia Search, Global-e Checkout, Paypal Express, Adyen, etc.",
+                "Worked on performance, code quality, WCAG, security compliance and caching improvements",
+                "Migrated Customer Management and Payment journeys from legacy SOAP APIs to RESTful APIs"
+            ]
+        }
+    ],
+    "skills": [
+      {
+        "name": "Backend",
+        "keywords": [
+          "Java",
+          "Spring",
+          "Hibernate/JPA",
+          "Spring Boot",
+          "Microservices",
+          "JUnit",
+          "Maven"
+        ]
+      },
+      {
+        "name": "Cloud - Azure",
+        "keywords": [
+          "Serverless",
+          "Logic Apps",
+          "Container Instances",
+          "Azure Storage",
+          "Key Vault"
+        ]
+      },
+      {
+        "name": "Dev Tools",
+        "keywords": [
+          "Git",
+          "Sonarqube",
+          "Atlassian tools",
+          "Docker",
+          "Jenkins",
+          "WebLogic",
+          "IntelliJ"
+        ]
+      },
+      {
+        "name": "Databases",
+        "keywords": [
+          "Oracle DB",
+          "Redis",
+          "Graph (Neo4J)"
+        ]
+      },
+      {
+          "name": "Messaging",
+          "keywords": [
+              "Apache Kafka",
+              "RabbitMQ"
+          ]
+      }
+    ],
+
+    "title-and-list": [
+      
+      {
+        "name": "Certifications",
+        "highlights": [
+            "AZ-204: Developing Solutions for Microsoft Azure",
+            "AI-102: Designing and Implementing a Microsoft Azure AI Solution",
+            "AZ-900, AI-900, DP-900: Microsoft Azure Fundamental Certifications"
+        ]
+      },
+      {
+        "name": "Others",
+        "highlights": [
+          "Contributing to the community through technical writing on open blogging platforms like Dev.to and Hashnode",
+          "Co-Winner - Microsoft Cloud Skills Challenge 2021 among 1500 competitors worldwide"
+        ]
+      }
+    ]
+  }
