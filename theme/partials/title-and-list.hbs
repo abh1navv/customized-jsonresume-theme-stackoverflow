@@ -1,0 +1,26 @@
+{{#if resume.title-and-list.length}}
+<section class="section">
+  {{#each resume.title-and-list}}
+  <header>
+    <h2 class='section-title'>{{name}}</h2>
+  </header>
+  <section id="volunteer">
+    
+    <section class="volunteer-item">  
+
+      <header class="clear">
+        <div class="header-left">
+        {{#if highlights.length}}
+        <ul class="highlights">
+          {{#each highlights}}
+          <li>{{paragraphSplit .}}</li>
+          {{/each}}
+        </ul>
+        {{/if}}
+      </div>
+    </section>
+    
+  </section>
+  {{/each}}
+</section>
+{{/if}}
