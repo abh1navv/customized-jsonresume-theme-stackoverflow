@@ -504,11 +504,11 @@ section .location {
 }
 
 #skills .item {
-  width: 16em;
+  width: 19em;
 }
 
 #skills .item .keywords {
-  width: 15em;
+  width: 19em;
 }
 
 /* Skill chart */
